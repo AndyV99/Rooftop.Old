@@ -1,2 +1,4 @@
 # Rooftop
-Productivity Web App
+## Productivity Web App
+
+Rooftop is a productivity web app focused on the work-life balance.
