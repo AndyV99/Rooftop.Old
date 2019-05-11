@@ -6,7 +6,7 @@ module.exports = Seed.extend ({
     return {
       native: [
         {
-          _id: dab.id ('5b97f467c2789f11e55b9572'),
+          _id: dab.id ('5cd378b01fd1e1088286c80d'),
           name: 'ember',
           client_secret: 'ember',
           email: 'ember@no-reply.com',
@@ -15,8 +15,8 @@ module.exports = Seed.extend ({
       ],
       accounts: [
         {
-          username: 'user0',
-          password: 'user0',
+          username: 'andy',
+          password: 'andy',
           email: 'user0@no-reply.com',
           scope: ['gatekeeper.account.create']
         }
