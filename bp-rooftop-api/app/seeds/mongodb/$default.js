@@ -10,7 +10,7 @@ module.exports = Seed.extend ({
           name: 'ember',
           client_secret: 'ember',
           email: 'ember@no-reply.com',
-          scope: ['gatekeeper.account.create']
+          scope: ['gatekeeper.account.create', 'gatekeeper.account.update']
         }
       ],
       accounts: [
@@ -18,7 +18,7 @@ module.exports = Seed.extend ({
           username: 'andy',
           password: 'andy',
           email: 'user0@no-reply.com',
-          scope: ['gatekeeper.account.create']
+          scope: ['gatekeeper.account.create', 'gatekeeper.account.update']
         }
       ],
       user_tokens: [
@@ -26,7 +26,7 @@ module.exports = Seed.extend ({
           client: dab.ref ('native.0'),
           account: dab.ref ('accounts.0'),
           refresh_token: dab.id (),
-          scope: ['gatekeeper.account.create']
+          scope: ['gatekeeper.account.create', 'gatekeeper.account.update']
         }
       ],
       client_tokens: [
