@@ -25,7 +25,7 @@ module.exports = function (environment) {
 
     gatekeeper: {
       baseUrl: 'http://localhost:5000/gatekeeper',
-      startRoute: 'home',
+      startRoute: 'dashboard.home',
       signInRoute: 'auth.sign-in',
       tokenOptions: {
         client_id: '5cd378b01fd1e1088286c80d',
